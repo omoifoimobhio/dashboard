@@ -10,7 +10,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <meta name="description" content="">
  <meta name="author" content="">
- <title>SB Admin - Start Bootstrap Template</title>
+ <title>Dashboard</title>
  <!-- Bootstrap core CSS-->
  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
  <!-- Custom fonts for this template-->
@@ -34,17 +34,17 @@
            </div>
          </div>
          <div class="form-group">
-           <label for="exampleInputEmail1">Email address</label>
-           <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" name="email" value="<?php echo $email; ?>" >
+           <label for="InputEmail1">Email address</label>
+           <input class="form-control" id="InputEmail1" type="email" aria-describedby="emailHelp" name="email" value="<?php echo $email; ?>" >
          </div>
          <div class="form-group">
            <div class="form-row">
              <div class="col-md-6">
-               <label for="exampleInputPassword1">Password</label>
-               <input class="form-control" id="exampleInputPassword1" type="password" name="password_1" >
+               <label for="InputPassword1">Password</label>
+               <input class="form-control" id="InputPassword1" type="password" name="password_1" >
              </div>
             <div class="col-md-6">
-               <label for="exampleInputPassword1">Confirm Password</label>
+               <label for="InputPassword1">Confirm Password</label>
                <input class="form-control" id="exampleInputPassword2" type="password" name="password_2" >
              </div>
            </div>
